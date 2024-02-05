@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: whitesmoke;
+    padding: 2px;
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 28px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    padding-right: 60px;
+    color: white;
+    margin-left: 20px;
+}
+.search {
+    background-color: transparent;
+    height: 25px;
+    width: 300px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: white;
+}
+.icone {
+    font-size: 28px
+}
+.main {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section{
+    width: 50%;
+   
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.article{
+    margin-left: 60px;
+    margin-bottom: 400px;
+}
+.footer {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
